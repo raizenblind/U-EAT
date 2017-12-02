@@ -76,6 +76,7 @@ namespace U_EAT
         {
             Context.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
         }
-    }
+
+  }
 
 }
