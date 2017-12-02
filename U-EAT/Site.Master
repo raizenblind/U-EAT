@@ -14,7 +14,7 @@
     </asp:PlaceHolder>
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-        <!--Import Google Icon Font-->
+    <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
 
@@ -34,7 +34,6 @@
                 <%--Framework Scripts--%>
                 <asp:ScriptReference Name="MsAjaxBundle" />
                 <asp:ScriptReference Name="jquery" />
-                <asp:ScriptReference Name="bootstrap" />
                 <asp:ScriptReference Name="respond" />
                 <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
                 <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
@@ -49,39 +48,38 @@
             </Scripts>
         </asp:ScriptManager>
 
-    <nav class="nav-extended ">
-        <div class="nav-wrapper red">
-            <a href="#!" class="brand-logo">U-EAT</a>
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
+        <nav class="nav-extended ">
+            <div class="nav-wrapper red">
+                <a href="#!" class="brand-logo">U-EAT</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
 
-                <li><a class="waves-effect waves-light btn modal-trigger" href="#LogOut-modal">Log Out</a></li>
-            </ul>
-            <ul class="side-nav" id="mobile-demo">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">Javascript</a></li>
-                <li><a href="mobile.html">Mobile</a></li>
-            </ul>
-        </div>
+                    <li><a class="waves-effect waves-light btn modal-trigger" href="#LogOut-modal">Log Out</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="sass.html">Sass</a></li>
+                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="collapsible.html">Javascript</a></li>
+                    <li><a href="mobile.html">Mobile</a></li>
+                </ul>
+            </div>
 
-        <div class="nav-content red">
-            <ul class="tabs tabs-transparent">
-                <li class="tab"><a href="#RestoView" runat="server">Resto View</a></li>
-                <li class="tab"><a href="~/CustomerView" runat="server">Customer View</a></li>
-                <li class="tab"><a runat="server" href="~/About">About</a></li>
-            </ul>
-        </div>
+            <div class="nav-content red">
+                <ul class="tabs tabs-transparent">
+                    <li class="tab"><a href="#RestoView" runat="server">Resto View</a></li>
+                    <li class="tab"><a href="~/CustomerView" runat="server">Customer View</a></li>
+                    <li class="tab"><a runat="server" href="~/About">About</a></li>
+                </ul>
+            </div>
 
-    </nav>
-        <div class="container body-content">
+        </nav>
+        <div class="container">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr />
         </div>
     </form>
 
-        <!--Import jQuery before materialize.js-->
+    <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>

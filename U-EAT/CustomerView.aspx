@@ -2,8 +2,6 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-        <div class="container">
-
         <div class="row">
 
             <div id="CustomerView" class="col s12">
@@ -50,7 +48,5 @@
 
 
 
-
         </div>
-    </div>
 </asp:Content>

@@ -2,22 +2,16 @@
 
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="container">
-
-        <div class="row">
-
-            <!--Restaurant View-->
-            <div id="RestoView" class="col s12">
-
-
-
-
-            </div>
-
+    
+        <!--Restaurant View-->
+        <div id="RestoView" class="col s12">
 
 
 
 
         </div>
-    </div>
+
+
+
+
 </asp:Content>
