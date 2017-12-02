@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="CustomerView.aspx.cs" Inherits="U_EAT.CustomerView" %>
+﻿<%@ Page Title="CustomerView" Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="CustomerView.aspx.cs" Inherits="U_EAT.CustomerView" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
