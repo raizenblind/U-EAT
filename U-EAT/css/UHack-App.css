@@ -1,0 +1,14 @@
+.discount {
+    text-decoration:line-through;
+    color: #b4b4b4;
+    position: relative;
+}
+
+.newPrice {
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.promoTime {
+    display: block;
+}
