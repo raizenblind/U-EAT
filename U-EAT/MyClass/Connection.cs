@@ -4,17 +4,12 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Data;
-using System.Configuration;
 
-namespace U_EAT.App_Data
+namespace U_EAT.MyClass
 {
-    public class VarConst
-    {
-        public String connectionstring = ConfigurationManager.ConnectionStrings["MISConnectionString"].ConnectionString.ToString();
-
-    }
     public class Connection
     {
+
         private VarConst myconst = new VarConst();
         private SqlConnection myconnection = new SqlConnection();
         public List<myParameters> myparameters = new List<myParameters>();
@@ -233,5 +228,4 @@ namespace U_EAT.App_Data
 
         public dynamic _myProperty { get; set; }
     }
-
 }

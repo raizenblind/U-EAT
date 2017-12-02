@@ -57,7 +57,7 @@
                     <li><a href="collapsible.html">Javascript</a></li>
                     <li><a href="mobile.html">Mobile</a></li>
                 </ul>
-                 <ul class="nav navbar-nav" style="background-color: #F44336;margin-left: 100px ">
+                 <ul class="nav navbar-nav bago" style="background-color: #F44336;margin-left: 100px ">
                     <li><a runat="server" href="~/RestoView">Resto View</a></li>
                     <li><a runat="server" href="~/CustomerView">Customer View</a></li>
                 </ul>
@@ -68,7 +68,6 @@
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr />
         </div>
     </form>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

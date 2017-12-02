@@ -22,7 +22,7 @@
                                     
                                 <i class="material-icons right">more_vert</i></span>
                                 <p>
-                                    <a href="#" class="waves-effect waves-green">
+                                    <a href="ViewDetails" class="waves-effect waves-green">
                                         <span class="newPrice">₱3,900</span>
                                     </a>
                                     
@@ -35,7 +35,7 @@
                             <div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">CHEF TONY'S<i class="material-icons right">close</i></span>
                                 <p>Get some food here for a whopping 80% discount</p>
-                                <a class="waves-effect waves-light btn blue">₱3,900</a>
+                                <a class="waves-effect waves-light btn blue" href="ViewDetails">₱3,900</a>
                                 <span class="new badge red" data-badge-caption="Left">4</span>
                             </div>
                         </div>

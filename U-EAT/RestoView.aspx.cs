@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.Services;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using U_EAT.MyClass;
 
 namespace U_EAT
 {
@@ -23,14 +25,15 @@ namespace U_EAT
         }
 
         [WebMethod]
-        public static List<RestoCard> getRestoCards()
+        public static List<RestoCard> getRestoCards(string res)
         {
+            Connection Connection = new Connection();
 
             List<RestoCard> finallist = new List<RestoCard>();
 
             DataTable descDT = new DataTable();
-            con.myparameters.Add(new myParameters { ParameterName = "@RestoID", mytype = SqlDbType.VarChar, Value = "3" });
-            descDT = con.GetDataTable("sp_displayMyRestoCards");
+            Connection.myparameters.Add(new myParameters { ParameterName = "@RestoID", mytype = SqlDbType.VarChar, Value = "3" });
+            descDT = Connection.GetDataTable("sp_displayMyRestoCards");
             for(int i = 0; i < descDT.Rows.Count; i++)
             {
                 RestoCard templist = new RestoCard();
